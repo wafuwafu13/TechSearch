@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ScrapingQiitumTest < ActiveSupport::TestCase
+class SiteTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

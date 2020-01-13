@@ -1,2 +1,0 @@
-class Qiita < ApplicationRecord
-end

@@ -1,2 +1,16 @@
-<h1>Top#index</h1>
-<p>Find me in app/views/top/index.html.erb</p>
+<table>
+  <thead>
+    <tr>
+      <th>タイトル</th>
+      <th>サイト名</th>
+    </tr>
+  </thead>
+  <% @articles.each do |article| %>
+  <tbody>
+    <tr>
+      <td><%= link_to "#{article.title}", article.url %></td>
+      <td><%= article.name %></td>
+    </tr>
+  </tbody>
+  <% end %>
+</table>

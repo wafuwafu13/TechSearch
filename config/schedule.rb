@@ -27,6 +27,7 @@ env :PATH, ENV['PATH']
 env :GEM_PATH, ENV['GEM_PATH']
 
 every 1.day, at '7:00 am' do
+    rake "db:migrate:reset"
     runner "Scraping.hatena"
     runner "Scraping.quora"
     runner "Scraping.postd"

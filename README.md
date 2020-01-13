@@ -12,7 +12,7 @@
 
 <img alt="スクリーンショット 2020-01-13 17 32 35" src="https://user-images.githubusercontent.com/50798936/72241652-b61b7300-362a-11ea-920c-76d54ec4847e.png">
 
-はてなブックマーク、Quora、POSTEDの毎日更新される記事一覧から、タイトルとurlを毎朝7時にスクレイピングし、データベースに保存。  
+はてなブックマーク、Quora、POSTEDの毎日更新される記事一覧から、タイトルとurlを**毎朝7時にスクレイピング**し、データベースに保存。  
 それをTechSearchで一覧表示し、検索機能もつける。  
 
 ## :eyes:  Author  

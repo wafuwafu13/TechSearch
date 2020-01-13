@@ -13,6 +13,21 @@
  */
  @import "bootstrap";
 
- body {
+body {
     background-color: #f8f8f8;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title {
+    padding: 40px 50px;
+}
+
+.form {
+    float: right;
+    padding: 40px 50px;
+}
+
+.alert{
+    margin: 20px 20px;
 }

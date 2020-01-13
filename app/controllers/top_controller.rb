@@ -1,5 +1,5 @@
 class TopController < ApplicationController
     def index
-        @articles = Site.all
+      @articles = Site.search(params[:search])
     end
 end

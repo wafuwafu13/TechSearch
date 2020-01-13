@@ -1,16 +1,22 @@
-<table class="table" style="table-layout:fixed">
-  <thead>
-    <tr>
-      <th style="width:60px">タイトル</th>
-      <th style="width:10px">サイト名</th>
-    </tr>
-  </thead>
-  <% @articles.each do |article| %>
-  <tbody>
-    <tr>
-      <td><%= link_to "#{article.title}", article.url %></td>
-      <td><%= article.name %></td>
-    </tr>
-  </tbody>
-  <% end %>
-</table>
+<div class="content">
+  <%= render 'top/form' %>
+  <h1 class="title">VolunSearch</h1>
+</div>
+<div>
+  <table class="table" style="table-layout:fixed">
+    <thead>
+      <tr>
+        <th style="width:100px">タイトル</th>
+        <th style="width:10px">サイト名</th>
+      </tr>
+    </thead>
+    <% @articles.each do |article| %>
+    <tbody>
+      <tr>
+        <td><%= link_to "#{article.title}", article.url %></td>
+        <td><%= article.name %></td>
+      </tr>
+    </tbody>
+    <% end %>
+  </table>
+</div>

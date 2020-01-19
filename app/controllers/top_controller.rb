@@ -1,5 +1,7 @@
 class TopController < ApplicationController
     def index
-      @articles = Site.search(params[:search])
+      @site = Site.new
+      @sites = Site.search(params[:search])
+      #binding.pry
     end
 end

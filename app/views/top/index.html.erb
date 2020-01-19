@@ -8,13 +8,17 @@
       <tr>
         <th style="width:100px">タイトル</th>
         <th style="width:10px">サイト名</th>
+        <th style="width:10px">読んだ？</th>
       </tr>
     </thead>
-    <% @articles.each do |article| %>
+    <% @sites.each do |site| %>
     <tbody>
       <tr>
-        <td><%= link_to "#{article.title}", article.url %></td>
-        <td><%= article.name %></td>
+        <td><%= link_to "#{site.title}", site.url %></td>
+        <td><%= site.name %></td>
+        <td> 
+         
+        </td>
       </tr>
     </tbody>
     <% end %>

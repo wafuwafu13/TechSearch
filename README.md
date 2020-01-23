@@ -1,24 +1,38 @@
-# README
+<img width="1439" alt="スクリーンショット 2020-01-23 09 44 11" src="https://user-images.githubusercontent.com/50798936/72947330-0336dc00-3dc5-11ea-83bd-0e1c189c1b18.png">
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## :house:  Development Environment  
 
-Things you may want to cover:
+- RubyonRails
+  - whenever
+  - mechanize
+- Bootstrap
+- VSCode (Visual Studio Code)
 
-* Ruby version
+## :triangular_ruler:  Specification
 
-* System dependencies
+<img alt="スクリーンショット 2020-01-13 17 32 35" src="https://user-images.githubusercontent.com/50798936/72241652-b61b7300-362a-11ea-920c-76d54ec4847e.png">
 
-* Configuration
+はてなブックマーク、Quora、POSTEDの毎日更新される記事一覧から、タイトルとurlを**毎朝7時にスクレイピング**し、データベースに保存。  
+それをTechSearchで一覧表示し、検索機能もつける。  
 
-* Database creation
+## :thought_balloon:  Concept
 
-* Database initialization
+毎日、最新の記事を読む習慣をつけるために作ったアプリ。
 
-* How to run the test suite
+## :fire:  Commitment
 
-* Services (job queues, cache servers, search engines, etc.)
+データベースに保存する記事の数が膨大にならないように、``schedule.rb``に``rake "db:migrate:reset"``を設定した。  
 
-* Deployment instructions
+## :ear:  Please give me advice
 
-* ...
+読んだ記事だけを保存する機能を作りたかったが、チェックボックスの扱い方がよく分からなかった。  
+背景をもっとこだわりたい。
+
+## :eyes:  Author  
+
+railsチュートリアル、リーダブルコード、オブジェクト指向設計実践ガイドを読んだ後に作成。  
+記事読了チェック機能、記事分類機能、メモ機能を追加予定。
+
+- [twitter](https://twitter.com/wafuwafu13_)
+- [Qiita](https://qiita.com/wafuwafu13)
+- [競ぷろぐ](https://kyoupurog.hatenablog.com/)

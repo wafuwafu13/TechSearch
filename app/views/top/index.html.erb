@@ -1,6 +1,6 @@
 <div class="content">
   <%= render 'top/form' %>
-  <h1 class="title">VolunSearch</h1>
+  <h1 class="title">TechSearch</h1>
 </div>
 <div>
   <table class="table" style="table-layout:fixed">
@@ -13,7 +13,7 @@
     <% @articles.each do |article| %>
     <tbody>
       <tr>
-        <td><%= link_to "#{article.title}", article.url %></td>
+        <td><%= link_to "#{article.title}", article.url, :style => "color:black;" %></td>
         <td><%= article.name %></td>
       </tr>
     </tbody>
